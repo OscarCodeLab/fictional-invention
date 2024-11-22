@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 16 20:57:41 WAT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>104 seconds (104172 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automationexercise.baseTest.BuyShirtTest.verifyCartAndProceedToCheckoutTest()'><b>verifyCartAndProceedToCheckoutTest</b><br>Test class: com.automationexercise.baseTest.BuyShirtTest</td>
+<td></td>
+<td>10</td>
+<td>com.automationexercise.baseTest.BuyShirtTest@66f66866</td></tr>
+<tr>
+<td title='com.automationexercise.baseTest.BuyShirtTest.PoloPageTest()'><b>PoloPageTest</b><br>Test class: com.automationexercise.baseTest.BuyShirtTest</td>
+<td></td>
+<td>3</td>
+<td>com.automationexercise.baseTest.BuyShirtTest@66f66866</td></tr>
+<tr>
+<td title='com.automationexercise.baseTest.BuyShirtTest.verifyAccountCreationAndLoginTest()'><b>verifyAccountCreationAndLoginTest</b><br>Test class: com.automationexercise.baseTest.BuyShirtTest</td>
+<td></td>
+<td>2</td>
+<td>com.automationexercise.baseTest.BuyShirtTest@66f66866</td></tr>
+<tr>
+<td title='com.automationexercise.baseTest.BuyShirtTest.cartPageTest()'><b>cartPageTest</b><br>Test class: com.automationexercise.baseTest.BuyShirtTest</td>
+<td></td>
+<td>2</td>
+<td>com.automationexercise.baseTest.BuyShirtTest@66f66866</td></tr>
+<tr>
+<td title='com.automationexercise.baseTest.BuyShirtTest.deleteAccountTest()'><b>deleteAccountTest</b><br>Test class: com.automationexercise.baseTest.BuyShirtTest</td>
+<td></td>
+<td>12</td>
+<td>com.automationexercise.baseTest.BuyShirtTest@66f66866</td></tr>
+<tr>
+<td title='com.automationexercise.baseTest.BuyShirtTest.signUpDataTest()'><b>signUpDataTest</b><br>Test class: com.automationexercise.baseTest.BuyShirtTest<br>Parameters: {Company=West Coast Innovation, FirstName=John, ZipCode=90001.0, Address2=Apt 5B, Address1=1234 Maple Street, City=Los Angeles, Mobile=+1 (323) 555-0198, Month=April, Year=2019, State=California, Country=United States, LastName=Doe, Day=10, Password=Test1234}</td>
+<td></td>
+<td>11</td>
+<td>com.automationexercise.baseTest.BuyShirtTest@66f66866</td></tr>
+<tr>
+<td title='com.automationexercise.baseTest.BuyShirtTest.LoginAndSignUpPageTest()'><b>LoginAndSignUpPageTest</b><br>Test class: com.automationexercise.baseTest.BuyShirtTest</td>
+<td></td>
+<td>3</td>
+<td>com.automationexercise.baseTest.BuyShirtTest@66f66866</td></tr>
+<tr>
+<td title='com.automationexercise.baseTest.BuyShirtTest.productPageTest()'><b>productPageTest</b><br>Test class: com.automationexercise.baseTest.BuyShirtTest</td>
+<td></td>
+<td>11</td>
+<td>com.automationexercise.baseTest.BuyShirtTest@66f66866</td></tr>
+<tr>
+<td title='com.automationexercise.baseTest.BuyShirtTest.homepageTest()'><b>homepageTest</b><br>Test class: com.automationexercise.baseTest.BuyShirtTest</td>
+<td></td>
+<td>4</td>
+<td>com.automationexercise.baseTest.BuyShirtTest@66f66866</td></tr>
+<tr>
+<td title='com.automationexercise.baseTest.BuyShirtTest.cardTest()'><b>cardTest</b><br>Test class: com.automationexercise.baseTest.BuyShirtTest<br>Parameters: John Doe, 4532 8947 1234 5678, 724.0, 9.0, 2025.0</td>
+<td></td>
+<td>20</td>
+<td>com.automationexercise.baseTest.BuyShirtTest@66f66866</td></tr>
+<tr>
+<td title='com.automationexercise.baseTest.BuyShirtTest.addToCartTest()'><b>addToCartTest</b><br>Test class: com.automationexercise.baseTest.BuyShirtTest</td>
+<td></td>
+<td>4</td>
+<td>com.automationexercise.baseTest.BuyShirtTest@66f66866</td></tr>
+<tr>
+<td title='com.automationexercise.baseTest.BuyShirtTest.reviewFieldTest()'><b>reviewFieldTest</b><br>Test class: com.automationexercise.baseTest.BuyShirtTest<br>Parameters: Oscar, vuig@gmail.com, very fast, affordable and reliable</td>
+<td></td>
+<td>1</td>
+<td>com.automationexercise.baseTest.BuyShirtTest@66f66866</td></tr>
+</table><p>
+</body>
+</html>
